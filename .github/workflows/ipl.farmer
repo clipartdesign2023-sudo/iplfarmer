@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Biologicals - Farmer Registration</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo-section">
+        <img src="images/logo.png" alt="IPL Biologicals Logo">
+        <h1>Farmer Registration Portal</h1>
+    </div>
+
+    <form id="farmerForm">
+
+        <div class="form-group">
+            <label>Farmer ID</label>
+            <input type="text" id="farmerId" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>Farmer Name *</label>
+            <input type="text" id="farmerName" required>
+        </div>
+
+        <div class="form-group">
+            <label>Father Name *</label>
+            <input type="text" id="fatherName" required>
+        </div>
+
+        <div class="form-group">
+            <label>Village *</label>
+            <input type="text" id="village" required>
+        </div>
+
+        <div class="form-group">
+            <label>State *</label>
+            <select id="state" required>
+                <option value="">Select State</option>
+                <option>Andhra Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+                <option>Chhattisgarh</option>
+                <option>Delhi</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himachal Pradesh</option>
+                <option>Jharkhand</option>
+                <option>Karnataka</option>
+                <option>Kerala</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Odisha</option>
+                <option>Punjab</option>
+                <option>Rajasthan</option>
+                <option>Tamil Nadu</option>
+                <option>Telangana</option>
+                <option>Uttar Pradesh</option>
+                <option>Uttarakhand</option>
+                <option>West Bengal</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Mobile Number *</label>
+            <input type="tel" id="mobile" maxlength="10" required>
+        </div>
+
+        <div class="form-group">
+            <label>Date &amp; Time</label>
+            <input type="text" id="datetime" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>Latitude</label>
+            <input type="text" id="latitude" readonly>
+        </div>
+
+        <div class="form-group">
+            <label>Longitude</label>
+            <input type="text" id="longitude" readonly>
+        </div>
+
+        <button type="submit">
+            REGISTER FARMER
+        </button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
